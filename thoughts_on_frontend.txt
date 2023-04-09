@@ -1,0 +1,53 @@
+So as you know , we have been working with only backend so far. Since a good chunk of the backend is implemented, we can start up the frontend. We will use next js 13 and typescript. Let me tell you more about frontend design.On the landing page, we will have a top bar which will display login and profile button. If user is logged in the login button will disappear and below this bar, we will have 3 sections in the middle of the page. They will be like same sized cards. When the card is clicked user will proceed to that section of our app. 
+Section 1: Forum 
+Section 2: Market place for events
+Section 3: Market place for students and tutors
+
+Each section will have its respective content to display.
+
+For instance , we will display everything related to entries and comments under forum section.
+Each section might have many pages as we have lots of things to display. 
+
+Also , for the forum page we will allow users to choose their own color theme. We will give them a few combination of colours. For instance ,blueish ,purpleish ,darkish and light themes. The other sections will have two colour themes as light and dark. 
+
+Note that everything must be responsive.
+
+Add tags below Topbar. Common tags: Politics , Art, Relationships, University , Sports , Kleve etc.
+
+
+!!! ISSUE TO BE FIXED , FEATURES TO BE ADDED !!!
+
+1-) When user is logged in , auth tokens expires after sometime. As a result they cant create , comment like or anything needs auth.
+Either implement refresh tokens , or make the auth tokens last infinitely until user logs out.
+
+2-) Users cant cast likes or dislikes on comments yet even tho there are buttons. Implement this feature.
+
+3-) Users cant create new entries yet. Implement this feature.
+
+4-) Users cant create new comments yet. Implement this feature.
+
+5-) Users cant delete their own entries yet. Implement this feature.
+
+6-) Users cant delete their own comments yet. Implement this feature.
+
+7-) Users cant delete their own entries yet. Implement this feature.
+
+8-) Users should be able to see their most disliked / liked entries or comments. 
+    Implement this feature.This is not even a feature on backend yet. So you will have to implement it on backend as well.
+
+9-) Users should be able to see their entries or comments that have most replies. 
+    Implement this feature.This is not even a feature on backend yet. So you will have to implement it on backend as well.
+
+10-) Users should be able to see their entries or comments chronologically. 
+    Implement this feature.This is not even a feature on backend yet. So you will have to implement it on backend as well.
+
+11-) Add search bar to topbar. Users should be able to search for entries or comments by their title or content.Backend side is not implemented yet. So you will have to implement it on backend as well
+
+Search bar added but needs to be improved a lot , especially for darh theme.
+
+
+
+12-) Fix username visibility on frontend when dark theme is selected.
+
+
+13-) Consider adding a tipping mechanism for users. Users might be able to tip other users for their entries or comments.
