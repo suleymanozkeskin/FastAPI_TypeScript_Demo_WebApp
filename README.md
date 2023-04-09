@@ -1,3 +1,7 @@
+# See demo link below:
+
+fastapi-hsrw-demo.vercel.app/forum
+
 # What is this project?
 
 This is a website project for a university in Germany.Only enrolled students and university staff will be able to use the platform. Platform will serve as a forum where students and professors can publicy create discussions.There will be an anonymous mode where a verified student/professor can actually state their opinion without revealing their identity.
@@ -8,15 +12,15 @@ And last but not least , members will be able to organize/share a wide scope of 
 
 # Stage of project
 
-This project is not completed at the moment. For backend; automated testing and payment systems will be added. Frontend got a kickstart however its quite primitive as of now.
+This project is not completed at the moment. For backend; payment systems will be added. Frontend is functional although there are some small fixes needed at the moment.
 
 # What has been done so far ?
 
-Authentication , encryption of passwords, crud operations for users,entries,comments, events, employers, tutors.Market place for displayin events and selling tickets. Tutor-employer marketplace is on the way. Initialization for database migration. Manual testing of endpoints has been done via Postman. Unit testing will be done later.Frontend has been deployed on Vercel for a demo.Backend is deployed on Heroku but not connected to frontend yet.
+Authentication , encryption of passwords, crud operations for users,entries,comments, events, employers, tutors.Market place for displayin events and selling tickets. Tutor-employer marketplace is on the way. Initialization for database migration. Manual testing of endpoints has been done via Postman. Unit testing will be done later.Frontend has been deployed on Vercel.Backend is deployed on Heroku.
 
 # About the tech stack
 
-FastAPI , PostgreSQL, Alembic , Next Js , Typescript , Chakra UI
+FastAPI ,Typescript, PostgreSQL, Alembic , Next Js ,Chakra UI , Heroku , Vercel
 
 # Commands
 
