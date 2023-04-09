@@ -1,6 +1,6 @@
-# See demo link below:
+# See demo below:
 
-fastapi-hsrw-demo.vercel.app/forum
+[LIVE DEMO](fastapi-hsrw-demo.vercel.app/forum)
 
 # What is this project?
 
