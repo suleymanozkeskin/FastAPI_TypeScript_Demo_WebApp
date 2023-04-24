@@ -1,7 +1,6 @@
-# See demo below:
+# See demo below
 
 [LIVE DEMO](https://fastapi-hsrw-demo.vercel.app)
-
 
 # What is this project?
 
@@ -10,6 +9,10 @@ This is a website project for a university in Germany.Only enrolled students and
 Another form of service will be employing and advertising tutors. Students can create a profile as a tutor and at the same time look and employ tutors according to their needs.An online payment system as a microservice will be implemented for those who wants to handle payments through this website.
 
 And last but not least , members will be able to organize/share a wide scope of events and make it known to every student.An invitation only type of event modes will be added too.Depending on the event , website will serve as a ticket selling point too.
+
+![Architecture](/assets/architecture.png)
+
+![Tables](/assets/tables.png)
 
 # Stage of project
 
@@ -25,27 +28,33 @@ FastAPI ,Typescript, PostgreSQL, Alembic , Next Js ,Chakra UI , Heroku , Vercel
 
 # Commands
 
--   Virtual environment
-    -   Create virtual enviromnent
+- Virtual environment
+  - Create virtual enviromnent
+
         ```bash
         virtualenv venv
         ```
-    -   Activate virtual environment on MacOs/Linux
+  - Activate virtual environment on MacOs/Linux
+
         ```bash
         source ./venv/bin/activate
         ```
-    -   Install dependencies in requirements.txt
+  - Install dependencies in requirements.txt
+
         ```bash
         pip install -r requirements.txt
         ```
--   Run the application
-    -   This will run the app and reload everytime there is a detected change
+
+- Run the application
+  - This will run the app and reload everytime there is a detected change
+
         ```bash
         uvicorn app.main:app --reload
         ```
-        
--   Alembic
-    -   Alembic Initialisation
+
+- Alembic
+  - Alembic Initialisation
+
         ```bash
         alembic init alembic
         ```
