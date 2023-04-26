@@ -1,0 +1,84 @@
+
+Automated testing has not been addded yet.
+
+
+
+
+
+ 1-) Additional verification for university email ; 
+
+    if the given email address is not @hsrw.org , user wont be able to register at the first place.
+
+    and when the email address is valid , a verification email will be sent to uni email address and it will ask user to verify that they want to register to hsrw-student-collective.com
+
+
+2-) Add payment system with stripe , each tutor will have an hourly rate for each subject. If someone wants to book a tutor for an agreed date, employer will pay the tutor for selected subject.
+
+But before the payment ,  employer must send a date and hour proposal to tutor. Upon approval of tutor employer will finalize the payment and will receive a bill  in pdf format sent to their email address.
+
+Tutor will recieve the same pdf as proof of payment and date-time proposal.
+
+
+3-) Users will be able to create forum posts in an anonymous way. But this anonomity will be available for only forum posts. Event posts requires full user details.
+
+
+4-) Add search filters for event posts , forum posts and tutor profiles. For example users should be able to browse only the ones thay they are intested in.
+
+For example , a person should be able to query tutors who teaches "Physics 101". Multiple selection should be possible too.
+
+
+5-) Add ticket selling option to events and monetize a percentage from the sales. Do the same for tutors.
+
+
+
+now that i thought about it , we should have all of the following(all of them will sort the highest interaction to the lowest):
+
+most interacted entries of all time  with its number of interactions (paginated by 20)
+
+most liked entries of all time  with its number of interactions (paginated by 20)
+
+most disliked entries of all time  with its number of interactions (paginated by 20)
+
+
+most interacted entries of all time  with its number (top 20) 
+
+most commented entries of all time with the comment count(top 20) 
+
+most interacted entries within last 24 hours(top 20)
+
+most commented entries within last 24 hours(top 20)
+
+most liked entries within last 24 hours(top 20)
+
+most disliked entries within last 24 hours(top 20)
+
+most interacted entries within last 7 days(top 20)
+
+a section display tags(a.k.a categories) so that users can browse by tags and see all the entries that are related to that tag. This would allow users to see entries that are related to their interests.
+
+when a tag is clicked , we should display the following:
+
+entries with that tag (paginated by 20) and its number of interactions
+
+and entries with that tag (paginated by 10) and its number of interactions within last 24 hours, so that users can see the pulse of the tag.
+
+
+
+
+Now most of the endpoints are built for entries ,comments and users.
+
+!!! At a later stage we will add email verification for registering to platform. As of now , we are not verifying the email address of the user for testing purposes.
+
+
+
+A market place for events are being builded at the moment. Events might have tickets or be free. Users will be able to buy tickets for events and will be able to sell tickets for their own events.
+Stripe will be used for payment system. In a later stage, we will add payments with btc, eth and tether.
+
+There will be a seperate market place for tutors and students. Tutors will be able to sell their services and students will be able to buy services from tutors. This will be a seperate market place from the events market place.
+We will create profiles for tutors, so that they can display their skills and hourly rates. Students will be able to search for tutors by their skills and hourly rates. Students will be able to book tutors for a date and time.
+
+
+
+Additionally , we can create another market place for items that users want to sell. This will be a separate market place from the events market place. Users will be able to sell their items and buy items from other users
+Not that its necessary but might be a good option to monetize the platform further.
+
